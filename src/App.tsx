@@ -57,7 +57,7 @@ import DoctorConsultation from './pages/DoctorConsultation';
 import About from './pages/About';
 
 // Initialize EmailJS
-emailjs.init('pCruUNl_sOjz6Zalq'); // Replace with your actual public key
+emailjs.init(process.env.REACT_APP_EMAIL_PUBLIC_KEY || 'pCruUNl_sOjz6Zalq'); // Replace with your actual public key
 
 const MainLayout = styled('div')(({ theme }) => ({
   display: 'flex',
