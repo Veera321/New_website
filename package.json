@@ -1,0 +1,73 @@
+{
+  "name": "healthcare-platform",
+  "version": "1.0.0",
+  "description": "Modern Healthcare Platform",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.1",
+    "@mui/material": "^5.15.1",
+    "@mui/x-date-pickers": "^7.23.3",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.68",
+    "@types/react": "^18.2.45",
+    "@types/react-beautiful-dnd": "^13.1.8",
+    "@types/react-dom": "^18.2.18",
+    "@types/react-slick": "^0.23.13",
+    "@types/react-swipeable-views": "^0.13.6",
+    "@types/react-swipeable-views-utils": "^0.13.7",
+    "@types/swiper": "^5.4.3",
+    "axios": "^1.6.2",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^11.15.0",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
+    "react-router-dom": "^6.21.1",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.30.3",
+    "react-swipeable-views": "^0.14.0",
+    "react-swipeable-views-utils": "^0.14.0",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.1.15",
+    "typescript": "^4.9.5",
+    "uuid": "^11.0.5",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/uuid": "^10.0.0",
+    "sharp": "^0.33.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "prebuild": "node scripts/optimize-images.js",
+    "build": "react-scripts build",
+    "optimize-images": "node scripts/optimize-images.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
